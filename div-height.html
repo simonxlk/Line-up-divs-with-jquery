@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Div height adjustment</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<style>
+#wrapper {margin:0 20px;}
+#col1,#col2{
+	float:left;
+	box-sizing:border-box;
+	margin-top:10px;
+	margin-right:20px;	
+}
+#box1,#box2{
+	display:block;
+	width:300px;
+	height:auto;
+	background:#669;
+	padding:10px;
+	margin-top:10px;
+}
+</style>
+</head>
+
+<body>
+<div id="wrapper">
+	<div id="col1">
+    	<div class="entry">
+            <textarea rows="4" cols="30" id="newtext1" autofocus>
+            
+            </textarea>
+            <br>
+            <button id="btn1">Submit</button> 
+        </div><!--end entry-->
+        <div id="box1">
+        	<p>One line of text!</p>
+            <p>Two lines of text..</p>
+            <p>Three lines of text..</p>
+            <p id="p1">Your text goes here:  </p>
+        
+        </div><!--end box1-->
+    </div><!--end col1-->
+    <div id="col2">
+    	<div class="entry">
+            <textarea rows="4" cols="30" id="newtext2">
+            
+            </textarea>
+            <br>
+            <button id="btn2">Submit</button> 
+        </div><!--end entry-->
+        <div id="box2">
+        <p>one line of text!</p>
+        <p id="p2">Your text goes here:  </p>
+        
+        </div><!--end box2-->
+    </div><!--end col2-->
+<script src="div-height.js"></script>
+
+</div>
+</body>
+</html>
