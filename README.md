@@ -20,7 +20,7 @@ $(document).ready(function() {
 
 This is the function that checks which of the 2 columns is taller then changes the height of the shorter one. 
 First I declared a variable `newHeight;` this would store a value temporarily.
-Then the If statement checks whether `#Col1` is taller than `#Col2` and if the condition is true the variable `newHeight' is 
+Then the If statement checks whether `#Col1` is taller than `#Col2` and if the condition is true the variable `newHeight` is 
 assigned a value that's equivalent to the height of `#Col1`. in the next statement, `#Col2` is assigned a new height, the value of which comes from 
 the `newHeight` variable. 
 If the condition is false, we move onto the `else` section which does the opposite.  
